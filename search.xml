@@ -19,6 +19,27 @@
 ]]></content>
   </entry>
   <entry>
+    <title>hexo+github</title>
+    <url>/2022/01/13/hexo-github/</url>
+    <content><![CDATA[<h1 id="利用hexo-github制作个人博客"><a href="#利用hexo-github制作个人博客" class="headerlink" title="利用hexo+github制作个人博客"></a>利用hexo+github制作个人博客</h1><h2 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h2><p> 新建一个仓库，名称为username.github.io，此处的username要与前面的用户名保持一致，并且必须配置SSH链接，要不然hexo d会失败。</p>
+<h2 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h2><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>  在官网下载Node.js,配置好环境变量，能使用npm命令</p>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><h4 id="安装命令："><a href="#安装命令：" class="headerlink" title="安装命令："></a>安装命令：</h4><p>  <code> npm install -g hexo-cli</code><br>   安装完成之后配置好环境变量，能使用hexo命令</p>
+<h4 id="初始化、生成并部署项目"><a href="#初始化、生成并部署项目" class="headerlink" title="初始化、生成并部署项目"></a>初始化、生成并部署项目</h4><p>  <code> 1. hexo init &#123;name&#125;</code><br>   2. 进入name文件夹，输入命令如下<br>      <code> hexo generate</code><br>       生成了静态网页<br>   3. 本地运行，命令如下：<br>       <code> hexo s</code><br>        可以在本地查看博客站点了<br>   4. 部署项目，命令如下：<br>        hexo deploy<br>        项目就可以通过自己的username.github.io访问</p>
+<h2 id="增加项目"><a href="#增加项目" class="headerlink" title="增加项目"></a>增加项目</h2><blockquote>
+<h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><p> <code> hexo new helloworld</code></p>
+<h3 id="标签页"><a href="#标签页" class="headerlink" title="标签页"></a>标签页</h3><p><code>  hexo new page tags</code></p>
+<h3 id="分类页"><a href="#分类页" class="headerlink" title="分类页"></a>分类页</h3><p><code>  hexo new page categories</code></p>
+<h3 id="修改主题的-config-yml"><a href="#修改主题的-config-yml" class="headerlink" title="修改主题的_config.yml"></a>修改主题的_config.yml</h3><p>  <img src="../img/menu.png" title="_config.yml里面的menu编辑区"><br>   去掉tags和categories前面的“#”即可添加标签页和分类页</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>website</category>
+      </categories>
+      <tags>
+        <tag>website</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ClaAndObj</title>
     <url>/2022/01/05/ClaAndObj/</url>
     <content><![CDATA[]]></content>
