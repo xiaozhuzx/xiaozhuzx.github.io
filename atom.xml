@@ -6,7 +6,7 @@
   <link href="https://xiaozhuzx.github.io/atom.xml" rel="self"/>
   
   <link href="https://xiaozhuzx.github.io/"/>
-  <updated>2022-02-23T16:32:38.468Z</updated>
+  <updated>2022-02-27T15:33:20.633Z</updated>
   <id>https://xiaozhuzx.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Object-oriented</title>
+    <link href="https://xiaozhuzx.github.io/2022/02/27/Object-oriented/"/>
+    <id>https://xiaozhuzx.github.io/2022/02/27/Object-oriented/</id>
+    <published>2022-02-27T14:57:37.000Z</published>
+    <updated>2022-02-27T15:33:20.633Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2022/02/27/Object-oriented/object.png" alt="object"></p><p>一、方法</p><p>1、按我的理解来看方法就像是C语言中的函数</p><p>2、成员方法的好处 </p><ol><li>提高代码的复用性 2.可以将实现的细节封装起来，然后供其他用户来调用即可</li></ol><p>3、成员方法的定义 </p><p>​    访问修饰符 返回数据类型 方法名（形参列表..） {//方法体 语句； return 返回值; }</p><p>4、方法调用机理</p><p>​    <img src="/2022/02/27/Object-oriented/function.png" alt="function"></p><p>5、方法使用细节</p><p>​    方法里面不能嵌套方法</p><p>​    同一类中直接调用，不同类中使用对象名.方法名调用</p><p>6、传参机制</p><p>​    基本数据类型传递的是值，形参的改变不影响实参</p><p>​    引用类型传递的是地址</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2022/02/27/Object-oriented/object.png&quot; alt=&quot;object&quot;&gt;&lt;/p&gt;
+&lt;p&gt;一、方法&lt;/p&gt;
+&lt;p&gt;1、按我的理解来看方法就像是C语言中的函数&lt;/p&gt;
+&lt;p&gt;2、成员方法的好处 &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提</summary>
+      
+    
+    
+    
+    <category term="java" scheme="https://xiaozhuzx.github.io/categories/java/"/>
+    
+    
+    <category term="java" scheme="https://xiaozhuzx.github.io/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>streams</title>
@@ -61,23 +90,6 @@
     
     
     <category term="website" scheme="https://xiaozhuzx.github.io/tags/website/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ClaAndObj</title>
-    <link href="https://xiaozhuzx.github.io/2022/01/05/ClaAndObj/"/>
-    <id>https://xiaozhuzx.github.io/2022/01/05/ClaAndObj/</id>
-    <published>2022-01-05T14:15:04.000Z</published>
-    <updated>2022-01-05T14:54:18.240Z</updated>
-    
-    
-    
-    
-    <category term="java" scheme="https://xiaozhuzx.github.io/categories/java/"/>
-    
-    
-    <category term="java" scheme="https://xiaozhuzx.github.io/tags/java/"/>
     
   </entry>
   
