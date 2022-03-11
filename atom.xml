@@ -6,7 +6,7 @@
   <link href="https://xiaozhuzx.github.io/atom.xml" rel="self"/>
   
   <link href="https://xiaozhuzx.github.io/"/>
-  <updated>2022-03-04T06:34:38.597Z</updated>
+  <updated>2022-03-04T14:41:09.269Z</updated>
   <id>https://xiaozhuzx.github.io/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="https://xiaozhuzx.github.io/2022/03/04/Collection/"/>
     <id>https://xiaozhuzx.github.io/2022/03/04/Collection/</id>
     <published>2022-03-04T06:28:31.000Z</published>
-    <updated>2022-03-04T06:34:38.597Z</updated>
+    <updated>2022-03-04T14:41:09.269Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/2022/03/04/Collection/collection.png" alt="collection"></p>]]></content>
+    <content type="html"><![CDATA[<p>Iterator对象称为迭代器，遍历元素（只用于遍历集合，本省并不存放对象），只遍历一次，若需要再次遍历，需要重置迭代器。</p><p>增强for循环，就是简化版的迭代器，本质是一样的</p><p><img src="/2022/03/04/Collection/collection.png" alt="collection"></p><p>Set:无序，没有索引，不允许重复，最多包含一个null，<strong>不能使用索引方式遍历</strong></p><p>HashSet:实现了Set接口，实际上是HashMap，可以存放null值，但只能有一个，不保证元素是有序的，取决于hash后确定索引结果（不保证存放顺序和取出顺序一致），不能有重复元素</p><p>底层机制：</p><p>LinkedHashSet:是HashSet的子类，底层LinkedHashMap，底层维护了一个数组+双向链表，根据元素的hashCode值来决定元素的储存位置，同时是用链表维护元素的次序图，使得元素看起来是以插入顺序保存的，不允许添加重复元素。</p><p>List:有序，顺序索引，可根据序号取数据</p><p>ArrayList:可加入多个null，由数组实现数据储存，基本等同于Vector，但线程是不安全的，多线程不建议使用</p><p>底层机制：</p><p>Vector:线程同步</p><p>比较：</p><p>​    <img src="/2022/03/04/Collection/com.png" alt="com"></p><p>LinkedList:底层实现了双向链表和双端队列特点，可添加任意元素，包括null，线程不安全，没有实现线程同步</p><p>底层机制：</p><p>比较：</p><p><img src="/2022/03/04/Collection/comp.png" alt="comp"></p><p><img src="/2022/03/04/Collection/map.png" alt="map"></p><p>Map:具有映射关系的数据：key-Value，key和value可以是任何引用类型的数据，会封装到HashMap$Node对象中，</p><p>key不允许重复，value可以重复，</p><p>key可以为null, value也可以为null, </p><p>注意key为null，只能有一个，value为null，可以为多个，</p><p>常用String类作为Map的key，</p><p>key和value之间存在单向一对一关系，即通过指定的key总能找到对应的value</p><p>key相同时替换</p><p>遍历：</p><p>第一组</p><p>1.先取出所有的key，通过key取得对应的value</p><p>Set keyset = map.keySet();</p><p>2.增强for或迭代器</p><p>第二组</p><p>1.把所有的values取出</p><p>Collection values = map.values();</p><p>2.增强for或迭代器</p><p>第三组</p><p>1.通过EntrySet来获取k-v</p><p>Set entrySet = map.entrySet();// EntrySet&lt;Map.Entry&lt;K, V&gt;&gt;</p><p>2.增强for或迭代器</p><p><img src="/2022/03/04/Collection/HashMap.png" alt="HashMap"></p><p>底层机制：</p><p>HashTable:K-V,键和值都不能为null，否则会抛出NullPointerException异常，使用</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2022/03/04/Collection/collection.png&quot; alt=&quot;collection&quot;&gt;&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;Iterator对象称为迭代器，遍历元素（只用于遍历集合，本省并不存放对象），只遍历一次，若需要再次遍历，需要重置迭代器。&lt;/p&gt;
+&lt;p&gt;增强for循环，就是简化版的迭代器，本质是一样的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2022/03/04/Collection/col</summary>
       
     
     
